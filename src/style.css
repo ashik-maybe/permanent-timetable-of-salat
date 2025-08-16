@@ -303,3 +303,107 @@ footer a:hover {
     padding: 12px;
   }
 }
+
+/* ===== DARK THEME ===== */
+:root[data-theme="dark"] {
+  --primary: #2e8b57;
+  --primary-variant: #3cb371;
+  --secondary: #d1a42e;
+  --secondary-variant: #f0e08c;
+  --surface: #1a1f1a;
+  --on-surface: #e0ebe0;
+  --outline: #3a503a;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  --elevation-2: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --elevation-4: 0 8px 24px rgba(0, 0, 0, 0.3);
+  --radius: 30px;
+  --btn-radius: 100px;
+}
+
+[data-theme="dark"] body {
+  background: #121812;
+  color: #e0ebe0;
+}
+
+[data-theme="dark"] .app {
+  color: var(--on-surface);
+}
+
+[data-theme="dark"] .card {
+  background: var(--surface);
+  border-color: var(--outline);
+  color: var(--on-surface);
+}
+
+[data-theme="dark"] .card .name,
+[data-theme="dark"] .card .time {
+  color: var(--on-surface);
+}
+
+[data-theme="dark"] .card .label {
+  color: var(--primary-variant);
+}
+
+[data-theme="dark"] .date {
+  color: #8faa8f;
+}
+
+[data-theme="dark"] table {
+  color: var(--on-surface);
+}
+
+[data-theme="dark"] th {
+  background: var(--primary);
+}
+
+[data-theme="dark"] td {
+  border-bottom-color: var(--outline);
+  color: var(--on-surface);
+}
+
+[data-theme="dark"] tbody tr:hover {
+  background: rgba(209, 164, 46, 0.1);
+}
+
+[data-theme="dark"] .table-wrapper::-webkit-scrollbar-track {
+  background: #1a1f1a;
+}
+
+[data-theme="dark"] .table-wrapper::-webkit-scrollbar-thumb {
+  background: var(--primary-variant);
+}
+
+[data-theme="dark"] .table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #3cb371;
+}
+
+[data-theme="dark"] .btn-icon {
+  background: var(--primary);
+}
+
+[data-theme="dark"] .btn-icon:hover {
+  background: var(--primary-variant);
+}
+
+[data-theme="dark"] .modal-header {
+  background: var(--primary);
+}
+
+[data-theme="dark"] footer a {
+  color: var(--secondary-variant);
+}
+
+[data-theme="dark"] .countdown {
+  color: var(--secondary-variant);
+}
+
+[data-theme="dark"] .box {
+  background: #242b24;
+  border: 1px solid var(--primary);
+  box-shadow: 0 4px 14px rgba(46, 139, 87, 0.2);
+}
+
+/* Smooth transitions */
+* {
+  transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}

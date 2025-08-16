@@ -153,29 +153,62 @@ async function populateTable() {
   }
 }
 
-// Init
+// 🌙 Theme Toggle Logic
+const themeToggleBtn = document.getElementById('theme-toggle');
+const themeIcon = themeToggleBtn.querySelector('i');
+const STORAGE_KEY = 'salat-theme';
+
+function getSavedTheme() {
+  return localStorage.getItem(STORAGE_KEY) || 'light';
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  if (theme === 'dark') {
+    themeIcon.classList.replace('fa-moon', 'fa-sun');
+    themeToggleBtn.setAttribute('aria-label', 'Switch to light theme');
+  } else {
+    themeIcon.classList.replace('fa-sun', 'fa-moon');
+    themeToggleBtn.setAttribute('aria-label', 'Switch to dark theme');
+  }
+}
+
+// ✅ DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
+  // Apply saved theme
+  const savedTheme = getSavedTheme();
+  applyTheme(savedTheme);
+
+  // Initialize app
   setCurrentDate();
   populateTable();
   update();
   setInterval(update, 1000); // Update every second
-});
 
-// ✅ MODAL CONTROLS
-const openTableBtn = document.getElementById('open-table');
-const modal = document.getElementById('modal');
-const modalCloseBtn = document.getElementById('modal-close');
+  // Modal Controls
+  const modal = document.getElementById('modal');
+  const modalCloseBtn = document.getElementById('modal-close');
+  const openTableBtn = document.getElementById('open-table');
 
-openTableBtn.addEventListener('click', () => {
-  modal.classList.add('active');
-});
+  openTableBtn.addEventListener('click', () => {
+    modal.classList.add('active');
+  });
 
-modalCloseBtn.addEventListener('click', () => {
-  modal.classList.remove('active');
-});
-
-modal.addEventListener('click', (e) => {
-  if (e.target === modal) {
+  modalCloseBtn.addEventListener('click', () => {
     modal.classList.remove('active');
-  }
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('active');
+    }
+  });
+
+  // Theme Toggle
+  themeToggleBtn.addEventListener('click', () => {
+    const currentTheme = getSavedTheme();
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    applyTheme(newTheme);
+    localStorage.setItem(STORAGE_KEY, newTheme);
+  });
 });
