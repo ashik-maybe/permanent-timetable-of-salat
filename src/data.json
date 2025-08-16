@@ -1,0 +1,326 @@
+[
+  {
+    "date": "1 Jan",
+    "subhe sadik": "05:14 AM",
+    "sunrise": "06:41 AM",
+    "johr": "12:04 PM",
+    "asr": "03:49 PM",
+    "magrib": "05:30 PM",
+    "esha": "06:46 PM"
+  },
+  {
+    "date": "10 Jan",
+    "subhe sadik": "05:16 AM",
+    "sunrise": "06:43 AM",
+    "johr": "12:08 PM",
+    "asr": "03:52 PM",
+    "magrib": "05:33 PM",
+    "esha": "06:49 PM"
+  },
+  {
+    "date": "20 Jan",
+    "subhe sadik": "05:18 AM",
+    "sunrise": "06:44 AM",
+    "johr": "12:12 PM",
+    "asr": "03:03 PM",
+    "magrib": "05:43 PM",
+    "esha": "06:58 PM"
+  },
+  {
+    "date": "1 Feb",
+    "subhe sadik": "05:17 AM",
+    "sunrise": "06:41 AM",
+    "johr": "12:15 PM",
+    "asr": "04:11 PM",
+    "magrib": "05:52 PM",
+    "esha": "07:05 PM"
+  },
+  {
+    "date": "10 Feb",
+    "subhe sadik": "05:12 AM",
+    "sunrise": "06:36 AM",
+    "johr": "12:15 PM",
+    "asr": "04:16 PM",
+    "magrib": "05:57 PM",
+    "esha": "07:10 PM"
+  },
+  {
+    "date": "20 Feb",
+    "subhe sadik": "05:08 AM",
+    "sunrise": "06:30 AM",
+    "johr": "12:15 PM",
+    "asr": "04:20 PM",
+    "magrib": "06:03 PM",
+    "esha": "07:14 PM"
+  },
+  {
+    "date": "1 Mar",
+    "subhe sadik": "04:58 AM",
+    "sunrise": "06:20 AM",
+    "johr": "12:13 PM",
+    "asr": "04:25 PM",
+    "magrib": "06:07 PM",
+    "esha": "07:18 PM"
+  },
+  {
+    "date": "10 Mar",
+    "subhe sadik": "04:53 AM",
+    "sunrise": "06:15 AM",
+    "johr": "12:12 PM",
+    "asr": "04:28 PM",
+    "magrib": "06:12 PM",
+    "esha": "07:23 PM"
+  },
+  {
+    "date": "20 Mar",
+    "subhe sadik": "04:43 AM",
+    "sunrise": "06:05 AM",
+    "johr": "12:09 PM",
+    "asr": "04:30 PM",
+    "magrib": "06:16 PM",
+    "esha": "07:27 PM"
+  },
+  {
+    "date": "1 Apr",
+    "subhe sadik": "04:30 AM",
+    "sunrise": "05:53 AM",
+    "johr": "12:06 PM",
+    "asr": "04:31 PM",
+    "magrib": "06:21 PM",
+    "esha": "07:32 PM"
+  },
+  {
+    "date": "10 Apr",
+    "subhe sadik": "04:21 AM",
+    "sunrise": "05:45 AM",
+    "johr": "12:03 PM",
+    "asr": "04:31 PM",
+    "magrib": "06:24 PM",
+    "esha": "07:37 PM"
+  },
+  {
+    "date": "20 Apr",
+    "subhe sadik": "04:11 AM",
+    "sunrise": "05:36 AM",
+    "johr": "12:00 PM",
+    "asr": "04:32 PM",
+    "magrib": "06:27 PM",
+    "esha": "07:41 PM"
+  },
+  {
+    "date": "1 May",
+    "subhe sadik": "04:01 AM",
+    "sunrise": "05:28 AM",
+    "johr": "11:58 AM",
+    "asr": "04:32 PM",
+    "magrib": "06:31 PM",
+    "esha": "07:47 PM"
+  },
+  {
+    "date": "10 May",
+    "subhe sadik": "03:52 AM",
+    "sunrise": "05:21 AM",
+    "johr": "11:57 AM",
+    "asr": "04:33 PM",
+    "magrib": "06:36 PM",
+    "esha": "07:54 PM"
+  },
+  {
+    "date": "20 May",
+    "subhe sadik": "03:46 AM",
+    "sunrise": "05:17 AM",
+    "johr": "11:57 AM",
+    "asr": "04:34 PM",
+    "magrib": "06:40 PM",
+    "esha": "08:00 PM"
+  },
+  {
+    "date": "1 Jun",
+    "subhe sadik": "03:42 AM",
+    "sunrise": "05:14 AM",
+    "johr": "11:58 AM",
+    "asr": "04:37 PM",
+    "magrib": "06:45 PM",
+    "esha": "08:08 PM"
+  },
+  {
+    "date": "10 Jun",
+    "subhe sadik": "03:40 AM",
+    "sunrise": "05:13 AM",
+    "johr": "12:00 PM",
+    "asr": "04:38 PM",
+    "magrib": "06:50 PM",
+    "esha": "08:12 PM"
+  },
+  {
+    "date": "20 Jun",
+    "subhe sadik": "03:41 AM",
+    "sunrise": "05:14 AM",
+    "johr": "12:02 PM",
+    "asr": "04:39 PM",
+    "magrib": "06:53 PM",
+    "esha": "08:16 PM"
+  },
+  {
+    "date": "1 Jul",
+    "subhe sadik": "03:43 AM",
+    "sunrise": "05:17 AM",
+    "johr": "12:05 PM",
+    "asr": "04:41 PM",
+    "magrib": "06:55 PM",
+    "esha": "08:17 PM"
+  },
+  {
+    "date": "10 Jul",
+    "subhe sadik": "03:47 AM",
+    "sunrise": "05:21 AM",
+    "johr": "12:06 PM",
+    "asr": "04:45 PM",
+    "magrib": "06:54 PM",
+    "esha": "08:16 PM"
+  },
+  {
+    "date": "20 Jul",
+    "subhe sadik": "03:53 AM",
+    "sunrise": "05:25 AM",
+    "johr": "12:07 PM",
+    "asr": "04:44 PM",
+    "magrib": "06:52 PM",
+    "esha": "08:13 PM"
+  },
+  {
+    "date": "1 Aug",
+    "subhe sadik": "04:01 AM",
+    "sunrise": "05:30 AM",
+    "johr": "12:07 PM",
+    "asr": "04:43 PM",
+    "magrib": "06:47 PM",
+    "esha": "08:05 PM"
+  },
+  {
+    "date": "10 Aug",
+    "subhe sadik": "04:06 AM",
+    "sunrise": "05:34 AM",
+    "johr": "12:06 PM",
+    "asr": "04:41 PM",
+    "magrib": "06:41 PM",
+    "esha": "07:58 PM"
+  },
+  {
+    "date": "20 Aug",
+    "subhe sadik": "04:11 AM",
+    "sunrise": "05:37 AM",
+    "johr": "12:04 PM",
+    "asr": "04:37 PM",
+    "magrib": "06:34 PM",
+    "esha": "07:49 PM"
+  },
+  {
+    "date": "1 Sep",
+    "subhe sadik": "04:18 AM",
+    "sunrise": "05:42 AM",
+    "johr": "12:01 PM",
+    "asr": "04:31 PM",
+    "magrib": "06:23 PM",
+    "esha": "07:36 PM"
+  },
+  {
+    "date": "10 Sep",
+    "subhe sadik": "04:22 AM",
+    "sunrise": "05:45 AM",
+    "johr": "11:55 AM",
+    "asr": "04:25 PM",
+    "magrib": "06:14 PM",
+    "esha": "07:26 PM"
+  },
+  {
+    "date": "20 Sep",
+    "subhe sadik": "04:26 AM",
+    "sunrise": "05:48 AM",
+    "johr": "11:55 AM",
+    "asr": "04:18 PM",
+    "magrib": "06:05 PM",
+    "esha": "07:16 PM"
+  },
+  {
+    "date": "1 Oct",
+    "subhe sadik": "04:30 AM",
+    "sunrise": "05:52 AM",
+    "johr": "11:51 AM",
+    "asr": "04:09 PM",
+    "magrib": "05:53 PM",
+    "esha": "07:04 PM"
+  },
+  {
+    "date": "10 Oct",
+    "subhe sadik": "04:34 AM",
+    "sunrise": "05:55 AM",
+    "johr": "11:49 AM",
+    "asr": "04:04 PM",
+    "magrib": "05:45 PM",
+    "esha": "06:56 PM"
+  },
+  {
+    "date": "20 Oct",
+    "subhe sadik": "04:36 AM",
+    "sunrise": "05:59 AM",
+    "johr": "11:46 AM",
+    "asr": "03:54 PM",
+    "magrib": "05:36 PM",
+    "esha": "06:48 PM"
+  },
+  {
+    "date": "1 Nov",
+    "subhe sadik": "04:42 AM",
+    "sunrise": "06:03 AM",
+    "johr": "11:45 AM",
+    "asr": "03:47 PM",
+    "magrib": "05:30 PM",
+    "esha": "06:40 PM"
+  },
+  {
+    "date": "10 Nov",
+    "subhe sadik": "04:46 AM",
+    "sunrise": "06:10 AM",
+    "johr": "11:45 AM",
+    "asr": "03:42 PM",
+    "magrib": "05:23 PM",
+    "esha": "06:36 PM"
+  },
+  {
+    "date": "20 Nov",
+    "subhe sadik": "04:52 AM",
+    "sunrise": "06:17 AM",
+    "johr": "11:47 AM",
+    "asr": "03:39 PM",
+    "magrib": "05:20 PM",
+    "esha": "06:34 PM"
+  },
+  {
+    "date": "1 Dec",
+    "subhe sadik": "04:58 AM",
+    "sunrise": "06:24 AM",
+    "johr": "11:50 AM",
+    "asr": "03:38 PM",
+    "magrib": "05:19 PM",
+    "esha": "06:34 PM"
+  },
+  {
+    "date": "10 Dec",
+    "subhe sadik": "05:03 AM",
+    "sunrise": "06:30 AM",
+    "johr": "11:54 AM",
+    "asr": "03:39 PM",
+    "magrib": "05:21 PM",
+    "esha": "06:37 PM"
+  },
+  {
+    "date": "20 Dec",
+    "subhe sadik": "05:08 AM",
+    "sunrise": "06:35 AM",
+    "johr": "11:58 AM",
+    "asr": "03:43 PM",
+    "magrib": "05:24 PM",
+    "esha": "06:40 PM"
+  }
+]

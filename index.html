@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timetable of Salat</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/svgs/solid/mosque.svg" type="image/svg+xml">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Timetable of Salat</h1>
+      <button id="open-table" class="btn-icon" aria-label="View timetable">
+        <i class="fas fa-calendar"></i>
+      </button>
+    </header>
+
+    <p class="date" id="current-date">Loading...</p>
+
+    <!-- Current Prayer -->
+    <div class="card current">
+      <span class="label">Now</span>
+      <span class="name" id="current-prayer">—</span>
+      <span class="time" id="current-time">—</span>
+    </div>
+
+    <!-- Next Prayer -->
+    <div class="card next">
+      <span class="label">Next</span>
+      <span class="name" id="next-prayer">—</span>
+      <span class="time" id="next-time">—</span>
+    </div>
+
+    <!-- Countdown -->
+    <div class="countdown" id="countdown-timer">
+      <div class="box"><span id="hours">00</span>h</div>
+      <div class="sep">:</div>
+      <div class="box"><span id="minutes">00</span>m</div>
+      <div class="sep">:</div>
+      <div class="box"><span id="seconds">00</span>s</div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Permanent Timetable of Salat</h2>
+          <button id="modal-close" class="btn-icon small">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="table-wrapper">
+          <table id="prayer-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Subhe Sadik</th>
+                <th>Sunrise</th>
+                <th>Johr</th>
+                <th>Asr</th>
+                <th>Magrib</th>
+                <th>Esha</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <a href="https://islamibankbd.com/salat-time" target="_blank">Islami Bank Bangladesh PLC.</a>
+    </footer>
+  </div>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
